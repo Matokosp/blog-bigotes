@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+
+.header__section {
+	text-align: center;
+}
+
+.header__section h1 {
+	font-family: 'Playfair Display', serif;
+	color: #fff;
+}
