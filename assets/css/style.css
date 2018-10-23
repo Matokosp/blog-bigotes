@@ -15,6 +15,10 @@ body {
 	padding: 15px;
 }
 
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+}
+
 .navbar-default .navbar-toggle {
 	border-color: transparent;
 }
@@ -114,7 +118,7 @@ ul.icons__post {
 }
 
 .icons__item--i {
-	width: 160px;
+	width: 120px;
 	text-align: left;
 	padding-left: 15px;
 }
@@ -128,4 +132,151 @@ ul.icons__post {
 	color: #fff;
 	font-size: 35px;
 	padding-top: 7px;
+}
+
+.profile__section {
+	padding: 0 20px;
+	position: relative;
+}
+
+/*PROFILE*/
+
+.profile__section {
+	text-align: center;
+	margin-top: 40px;
+	position: relative;
+	border: 1px solid #cccccc;
+	padding-bottom: 20px;
+}
+
+.profile__section i {
+	position: relative;
+	top: -15px;
+	background-color: #fff;
+	padding: 10px 11px;
+	border-radius: 50px;
+	border: 1px solid #cccccc;
+	font-size: 1.4em;
+	color: #878787;
+}
+
+.profile__header {
+	color: #707070;
+}
+
+.profile__header img {
+	width: 160px;
+}
+
+.profile__header h2 {
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	color: #000;
+}
+
+.profile__text {
+	display: none;
+}
+
+/*FOOTER*/
+
+.carousel-item {
+	background-color: #e5e5e5;
+	height: 150px;
+	padding: 60px 10px 0 10px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.carousel-item a {
+	color: #777777;
+}
+
+.carousel-control.right, .carousel-control.left {
+	background-image: none;
+	background-color: transparent;
+}
+
+.glyphicon-chevron-right:before {
+	background-color: #888888;
+	padding: 5px 7px;
+	border-radius: 50px;
+}
+
+.glyphicon-chevron-left:before {
+	background-color: #888888;
+	padding: 5px 7px;
+	border-radius: 50px;
+}
+
+.footer__black {
+	background-color: #000;
+	text-align: center;
+	height: 150px;
+	padding-top: 55px;
+}
+
+.footer__black img {
+	width: 90px;
+}
+
+@media (min-width: 768px) {
+
+.header__section h1 {
+	font-size: 3.5em;
+}
+
+}
+
+@media (min-width: 1200px) {
+
+.header__section {
+	padding: 35vh 20vw;
+}
+
+.header__section h1 {
+	font-size: 5.5em;
+}
+
+.post___section {
+	padding: 0 20vw;
+}
+
+.icons__section {
+	padding: 0 20vw;
+}
+
+.profile__section {
+	padding: 20px;
+}
+
+.profile__section i {
+	position: absolute;
+	top: -15px;
+	left: 50%;
+}
+
+.profile__header {
+	display: inline-block;
+	vertical-align: middle;
+	width: 40%;
+}
+
+.profile__text {
+	display: inline-block;
+	width: 35%;
+	vertical-align: middle;
+	text-align: left;
+	margin-left: 50px;
+	color: #888888;
+}
+
+}
+
+@media (min-width: 1440px) {
+
+.post___section {
+	padding: 0 10px;
+}
+
 }
